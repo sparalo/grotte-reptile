@@ -1,0 +1,46 @@
+26/12/2023 20:47:20 : SQLSTATE[HY000] [2002] Aucune connexion nâ€™a pu Ãªtre Ã©tablie car lâ€™ordinateur cible lâ€™a expressÃ©ment refusÃ©e
+26/12/2023 20:47:24 : SQLSTATE[HY000] [2002] Aucune connexion nâ€™a pu Ãªtre Ã©tablie car lâ€™ordinateur cible lâ€™a expressÃ©ment refusÃ©e
+05/01/2024 16:30:16 : SQLSTATE[HY000]: General error: 1007 Ne peut crÃ©er la base 'grottereptilebdd'; elle existe dÃ©jÃ 
+05/01/2024 16:30:16 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe dÃ©jÃ 
+24/01/2024 11:40:49 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+24/01/2024 11:40:49 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 09:06:02 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')CHARACTER SET utf8 COLLATE utf8_bin' à la ligne 8
+29/02/2024 09:06:02 : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'grottereptilebdd.users' n'existe pas
+29/02/2024 10:07:13 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:07:13 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')CHARACTER SET utf8 COLLATE utf8_bin' à la ligne 8
+29/02/2024 10:07:13 : SQLSTATE[42S02]: Base table or view not found: 1146 La table 'grottereptilebdd.users' n'existe pas
+29/02/2024 10:07:26 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:07:26 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')CHARACTER SET utf8 COLLATE utf8_bin' à la ligne 8
+29/02/2024 09:07:38 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ')CHARACTER SET utf8 COLLATE utf8_bin' à la ligne 8
+29/02/2024 10:08:08 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:08:28 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:08:28 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:08:28 : SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'email' ne peut être vide (null)
+29/02/2024 10:08:54 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:08:54 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:08:54 : SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'email' ne peut être vide (null)
+29/02/2024 10:08:55 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:08:55 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:08:55 : SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'email' ne peut être vide (null)
+29/02/2024 10:09:29 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:09:29 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:09:29 : SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'email' ne peut être vide (null)
+29/02/2024 10:10:29 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:10:29 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:10:29 : SQLSTATE[23000]: Integrity constraint violation: 1048 Le champ 'email' ne peut être vide (null)
+29/02/2024 10:10:59 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:10:59 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 09:30:31 : SQLSTATE[21000]: Cardinality violation: 1241 Operand should contain 1 column(s)
+29/02/2024 10:30:57 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:30:57 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:30:58 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'WHERE NOT EXISTS (SELECT * FROM users)' à la ligne 1
+29/02/2024 10:32:14 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:32:14 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:32:14 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'IF COUNT(users) < 1' à la ligne 1
+29/02/2024 10:35:52 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:35:52 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:35:52 : SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.
+29/02/2024 09:36:08 : SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.
+29/02/2024 10:39:05 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'grottereptilebdd'; elle existe déjà
+29/02/2024 10:39:05 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+29/02/2024 10:39:05 : SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.

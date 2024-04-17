@@ -1,0 +1,838 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------MENU------------------------------------------*/
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(155, 1, 1);
+    height: 80px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+.menu li a:hover {
+    border-bottom: 3px solid black;
+}
+
+/*------------------------------------------BANNIERE------------------------------------------*/
+
+body {
+    background: linear-gradient(rgba(246, 212, 149, 0.457), black), url(../images/vieillePage.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.banniere {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.explication {
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.explication h2 {
+    font-size: 35px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.explication p {
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.explication div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.explication2 {
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.explication2 h2 {
+    font-size: 35px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.explication2 p {
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.explication2 div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.explication2 div div img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.explication3 {
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.explication3 h2 {
+    font-size: 35px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.explication3 p {
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.explication3 div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.explication3 div div img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.explication4 {
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.explication4 h2 {
+    font-size: 35px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.explication4 p {
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.explication4 div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*------------------------------------------FOOTER------------------------------------------*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(155, 1, 1);
+    height: 80px;
+    width: 100%;
+    position: absolute;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+}
+
+#dice {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+#dice:hover {
+    cursor: pointer;
+}
+
+#dice img {
+    width: 70px;
+}
+
+/*------------------------------------------INS/CON------------------------------------------*/
+.insCon {
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    position: absolute;
+    background-image: url(../images/vieillePage.avif);
+    background-size: cover;
+}
+
+.inscription {
+    width: 20%;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.726);
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.connexion {
+    width: 20%;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.726);
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.inscription label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inscription input {
+    width: 300px;
+    height: 30px;
+}
+
+.inscription div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.connexion label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.connexion input {
+    width: 300px;
+    height: 30px;
+}
+
+.connexion div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(155, 1, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.btn:hover {
+
+    background-color: white;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px black;
+    border: 1px solid rgb(155, 1, 1);
+}
+
+/*------------------------------------------PROFIL------------------------------------------*/
+.profil {
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+}
+
+.profil .gauche p {
+    font-size: 30px;
+}
+
+.profil .gauche p span {
+    color: rgb(155, 1, 1);
+}
+
+.profil .droite h2 {
+    font-size: 50px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.profil .droite h2 {
+    font-size: 50px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.profil .droite div p {
+    font-size: 20px;
+}
+
+.profil .droite table {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.profil .droite table tr td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+/*------------------------------------------Creation------------------------------------------*/
+
+.creation {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.creation h2 {
+    font-size: 40px;
+    color: rgb(155, 1, 1);
+    text-shadow: 1px 1px 3px white;
+}
+
+.creation fieldset {
+    width: 70%;
+    margin-left: 15%;
+    height: 100px;
+}
+
+.creation fieldset input {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.creation .stat {
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.creation .stat input {
+    margin-left: 0;
+    width: 50px;
+}
+
+.creation .stat label {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.creation .stats {
+    text-align: left;
+}
+
+
+/*------------------------------------------Personnage------------------------------------------*/
+.fichePerso {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    height: fit-content;
+    margin-bottom: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fichePerso p {
+    font-size: 25px;
+}
+
+.fichePerso p span {
+    color: rgb(155, 1, 1);
+}
+
+.fichePerso .perso {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fichePerso .perso div {
+    display: block;
+}
+
+.fichePerso .perso fieldset {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.fichePerso .perso img {
+    width: 200px;
+}
+
+/*------------------------------------------Aventure------------------------------------------*/
+.aventure {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    height: fit-content;
+    margin-bottom: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.aventure h2 {
+    color: rgb(155, 1, 1);
+    font-size: 40px;
+}
+
+.aventure .jeu {
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aventure .jeu img {
+    width: 200px;
+}
+
+@media (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Menu*/
+    #icons {
+        display: block;
+    }
+
+    #icons:before {
+        content: "\2630";
+    }
+
+    .active #icons:before {
+        content: "\2715";
+    }
+
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+        z-index: 30;
+    }
+
+    nav li {
+        padding: 3px 0;
+    }
+
+    nav.active ul {
+        left: 0;
+    }
+
+    .menu {
+        height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 30;
+    }
+
+    /*Accueil*/
+    h1 {
+        font-size: 60px;
+    }
+
+
+    .explication {
+        width: 80%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 750px;
+        border-radius: 15px;
+        margin-top: 70px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .explication h2 {
+        font-size: 35px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .explication p {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .explication div {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .explication2 {
+        width: 80%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 700px;
+        border-radius: 15px;
+        margin-top: 70px;
+        padding-top: 10%;
+    }
+
+    .explication2 h2 {
+        font-size: 35px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .explication2 p {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .explication2 div {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .explication2 div .explimg {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .explication2 div .explimg img {
+        width: 100px;
+    }
+
+    .explication3 {
+        width: 80%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 600px;
+        border-radius: 15px;
+        margin-top: 70px;
+        padding-top: 10%;
+    }
+
+    .explication3 h2 {
+        font-size: 35px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .explication3 p {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .explication3 div {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .explication3 div .explimg {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .explication3 div .explimg img {
+        width: 100px;
+    }
+
+    .explication4 {
+        width: 80%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 450px;
+        border-radius: 15px;
+        margin-top: 70px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .explication4 h2 {
+        font-size: 35px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .explication4 p {
+        font-size: 25px;
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    .explication4 div {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*PROFIL*/
+    .profil {
+        width: 90%;
+        margin-left: 5%;
+        background-color: rgba(255, 255, 255, 0.6);
+        height: fit-content;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 10%;
+        margin-bottom: 100px;
+    }
+
+    .profil .gauche p {
+        font-size: 25px;
+    }
+
+    .profil .gauche p span {
+        color: rgb(155, 1, 1);
+    }
+
+    .profil .droite h2 {
+        font-size: 40px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .profil .droite h2 {
+        font-size: 50px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .profil .droite div p {
+        font-size: 20px;
+    }
+
+    /*Personnage*/
+    .fichePerso {
+        margin-top: 30px;
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255, 255, 255, 0.6);
+        height: fit-content;
+        margin-bottom: 10%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*Creation*/
+    .creation {
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 80%;
+        height: fit-content;
+        margin-left: 10%;
+        padding-top: 60px;
+        margin-bottom: 100px;
+    }
+
+    .creation h2 {
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        color: rgb(155, 1, 1);
+        text-shadow: 1px 1px 3px white;
+    }
+
+    .creation fieldset {
+        width: 90%;
+        margin-left: 5%;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .creation .stat {
+        height: 200px;
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .creation .stat label {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    .creation .stat .stats {
+        text-align: left;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /*Aventure*/
+    .aventure {
+        height: fit-content;
+        width: 90%;
+        margin-left: 50%;
+        margin-bottom: 110%;
+    }
+
+    /*Inscription/connexion*/
+
+    
+    .inscription {
+        width: 90%;
+        height: 400px;
+        background-color: rgba(128, 128, 128, 0.726);
+        text-align: center;
+        border-radius: 30px;
+        margin-left: 0%;
+        margin-top: 30%;
+    }
+
+    .connexion {
+        width: 90%;
+        height: 400px;
+        background-color: rgba(128, 128, 128, 0.726);
+        text-align: center;
+        border-radius: 30px;
+        margin-left: 0%;
+        margin-top: 30%;
+    }
+
+.inscription label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inscription input {
+    width: 300px;
+    height: 30px;
+}
+
+    /*Footer*/
+    #dice {
+        position: fixed;
+        top: 90%;
+        left: 85%;
+        background-color: white;
+        border-radius: 50px;
+        z-index: 10;
+    }
+
+    #dice:hover {
+        cursor: pointer;
+    }
+
+    #dice img {
+        width: 50px;
+    }
+}
